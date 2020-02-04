@@ -1,0 +1,6 @@
+useDynLib(GCGK, .registration=TRUE)
+export(gcgk.preset)
+export(gcgk)
+export(gcgk.test)
+importFrom(Rcpp, evalCpp)
+import(stats)
